@@ -16,4 +16,4 @@ workflows:
           chmod +x gradlew
           ./gradlew assembleDebug --no-daemon --stacktrace
     artifacts:
-      - app/build/outputs/apk/debug/*.apk
+      - "**/build/outputs/apk/**/*.apk"
